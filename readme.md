@@ -1,4 +1,4 @@
-Factory line task
+Factory line challenge
 -----------------------------
 
 Stream processing code challenge. Your goal is to make all tests green by changing only FactoryService implementation (no cheating). You are free to use any library that you want (RX, Akka Streams, Scalaz-streams, etc).
