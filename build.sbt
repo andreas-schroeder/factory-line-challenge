@@ -7,10 +7,10 @@ scalaVersion := "2.11.8"
 libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 
 // Uncomment to use Akka
-//libraryDependencies ++= Seq(
-//  "com.typesafe.akka" %% "akka-actor" % "2.4.16",
-//  "com.typesafe.akka" %% "akka-stream" % "2.4.16"
-//)
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-actor" % "2.4.16",
+  "com.typesafe.akka" %% "akka-stream" % "2.4.16"
+)
 
 // Uncomment to use RX
 //libraryDependencies ++= Seq(
